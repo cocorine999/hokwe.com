@@ -76,13 +76,12 @@ export default function Home() {
         <meta name="twitter:image" content="/illustration1.png" />
         <meta name="keywords" content="Hokwe, hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools"/>
         <meta name="author" content="Hokwe Team" />
-        <link rel="canonical" href="https://www.hokwe.com" />
 
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://hokwe.com" />
+        <link rel="canonical" href="https://www.hokwe.com" />
 
         {/* Structured Data */}
         <script
