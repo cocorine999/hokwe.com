@@ -14,20 +14,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Hokwe - Simplifying Rent Payments",
-  description: "Hokwe simplifies rent payments for tenants and landlords, making transactions seamless and efficient.",
-
+  description: "Hokwe makes rent payments easier and more rewarding. Pay, save, and manage rent with confidence.",
   // Open Graph Tags for Home Page
   openGraph: {
-    title: "Hokwe - Simplifying Rent Payments",
-    description: "Hokwe simplifies rent payments for tenants and landlords, making transactions seamless and efficient.",
-    url: "https://www.hokwe.com",
+    title: "Hokwe - Simplify Rent Payments",
+    description: "Hokwe makes rent payments easier with automatic billing, loyalty programs, and community access.",
+    url: "https://hokwe-com.vercel.app",
     siteName: "Hokwe",
     images: [
       {
         url: "https://www.hokwe.com/og-image.jpg", // URL of the image
         width: 1200,
         height: 630,
-        alt: "Hokwe Rent Payment Service",
+        alt: "Hokwe Rent Collection Service & Rent Payment App",
       },
     ],
     type: "website",
@@ -51,17 +50,20 @@ export const metadata: Metadata = {
   facebook: {
     appId: '12345678', // Replace with your Facebook App ID
   },
-  viewport: "",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+
   robots: {
     index: true,
     follow: true,
   },
-  keywords: "rent payment, tenant, landlord, rental management, property, real estate, automated payments",
+  keywords: "rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, rent management, tenant solutions, landlord tools",
   creator: "Hokwe Inc Technologies",
-  authors: [{ name: "Hokwe Team", url: "https://www.hokwe.com" }],
+  authors: [{ name: "Hokwe Team", url: "https://hokwe-com.vercel.app" }],
   // Additional Meta Tags
   category: "Real Estate", // Example of category meta tag
   classification: "Property Management", // Example of classification meta tag
+
+  canonical: "https://hokwe-com.vercel.app"
 };
 
 export default function RootLayout({
@@ -82,9 +84,21 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Hokwe",
+              "description": "Simplifying rent payments and property management.",
+              "url": "https://hokwe-com.vercel.app"
+            }),
+          }}
+        ></script>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Hokwe",
-              "url": "https://www.hokwe.com",
+              "url": "https://hokwe-com.vercel.app",
               "logo": "https://www.hokwe.com/logo.png",
               "contactPoint": {
                 "@type": "ContactPoint",
