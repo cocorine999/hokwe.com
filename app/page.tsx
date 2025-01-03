@@ -7,8 +7,8 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "name": "HokwePay",
-    "url": "https://hokwe-com.vercel.app",
-    "logo": "https://hokwe-com.vercel.app/images/logo.png",
+    "url": "https://hokwe.com",
+    "logo": "https://hokwe.com/images/logo.png",
   };
 
   return (
