@@ -108,7 +108,7 @@ export default function RootLayout({
             }),
           }}
         ></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R1DS7Z1N3B"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3HR2631WF"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -116,7 +116,7 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-R1DS7Z1N3B', {
+            gtag('config', 'G-W3HR2631WF', {
               page_path: window.location.pathname,
             });
           `,
