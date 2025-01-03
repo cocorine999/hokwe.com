@@ -72,10 +72,10 @@ export default function RootLayout({
   return (
     <html lang="en">
 
-      <head>
+      <head>{/* 
         <title>Hokwe</title>
         <meta name="description" content="Hokwe simplifies rent payments for tenants and landlords." />
-        <link rel="canonical" href="https://hokwe-com.vercel.app" />
+        <link rel="canonical" href="https://hokwe-com.vercel.app" /> */}
 
         {/* Add other SEO-related meta tags here */}
         {/* Schema Markup for structured data */}
