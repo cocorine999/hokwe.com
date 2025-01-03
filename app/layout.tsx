@@ -94,11 +94,7 @@ export default function RootLayout({
             }),
           }}
         ></script>
-<<<<<<< HEAD
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-R1DS7Z1N3B"></script>
-=======
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WH3ZBHSY25"></script>
->>>>>>> b45a60a0d937465344d17181878b9f586b3de2d7
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -106,11 +102,7 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-<<<<<<< HEAD
             gtag('config', 'G-R1DS7Z1N3B', {
-=======
-            gtag('config', 'G-WH3ZBHSY25', {
->>>>>>> b45a60a0d937465344d17181878b9f586b3de2d7
               page_path: window.location.pathname,
             });
           `,
