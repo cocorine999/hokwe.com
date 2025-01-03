@@ -8,7 +8,7 @@ export default function Home() {
     "@type": "RealEstateAgent",
     "name": "HokwePay",
     "url": "https://hokwe.com",
-    "logo": "https://hokwe.com/images/logo.png",
+    "logo": "/logo.png",
   };
 
   return (
@@ -24,7 +24,7 @@ export default function Home() {
 <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
   <Image
     className="dark:invert"
-    src="/next.svg"
+    src="/favicon.ico"
     alt="Next.js logo"
     width={180}
     height={38}

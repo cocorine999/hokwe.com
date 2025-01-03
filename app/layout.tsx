@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Hokwe",
     images: [
       {
-        url: "https://www.hokwe.com/og-image.jpg", // URL of the image
+        url: "/illustration1.png", // URL of the image
         width: 1200,
         height: 630,
         alt: "Hokwe Rent Collection Service & Rent Payment App",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description: "Hokwe simplifies rent payments for tenants and landlords, making transactions seamless and efficient.",
     images: [
       {// Twitter card image
-        url: "https://www.hokwe.com/og-image.jpg", // URL of the image
+        url: "/illustration1.png", // URL of the image
         width: 1200,
         height: 630,
         alt: 'Hokwe homepage image showcasing features',
