@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   description: "Hokwe makes rent payments easier and more rewarding. Pay, save, and manage rent with confidence.",
   // Open Graph Tags for Home Page
   openGraph: {
-    title: "Hokwe - Simplify Rent Payments",
-    description: "Hokwe makes rent payments easier with automatic billing, loyalty programs, and community access.",
+    title: "Hokwe - Simplify Rent Payments and Management",
+    description: "Streamline rent payments, manage properties effortlessly, and connect with your rental community.",//"Hokwe makes rent payments easier with automatic billing, loyalty programs, and community access.",
     url: "https://hokwe.com",
     siteName: "Hokwe",
     locale: 'fr_FR',
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   // Twitter Card Tags for Home Page
   twitter: {
     card: "summary_large_image",
-    title: "Hokwe - Simplifying Rent Payments",
-    description: "Hokwe simplifies rent payments for tenants and landlords, making transactions seamless and efficient.",
+    title: "Hokwe - Simplify Rent Payments and Management",
+    description: "Streamline rent payments, manage properties effortlessly, and connect with your rental community.",//"Hokwe simplifies rent payments for tenants and landlords, making transactions seamless and efficient.",
     images: [
       {// Twitter card image
         url: "/illustration1.png", // URL of the image
@@ -69,6 +69,7 @@ export const metadata: Metadata = {
   classification: "Property Management", // Example of classification meta tag
   icons: {
     icon: '/favicon.ico',
+    apple: '/favicon.ico',
   },
   alternates: {
     canonical: "https://hokwe.com",
