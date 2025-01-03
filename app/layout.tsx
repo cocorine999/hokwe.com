@@ -62,8 +62,6 @@ export const metadata: Metadata = {
   // Additional Meta Tags
   category: "Real Estate", // Example of category meta tag
   classification: "Property Management", // Example of classification meta tag
-
-  canonical: "https://hokwe-com.vercel.app"
 };
 
 export default function RootLayout({
@@ -77,6 +75,8 @@ export default function RootLayout({
       <head>
         <title>Hokwe</title>
         <meta name="description" content="Hokwe simplifies rent payments for tenants and landlords." />
+        <link rel="canonical" href="https://hokwe-com.vercel.app" />
+
         {/* Add other SEO-related meta tags here */}
         {/* Schema Markup for structured data */}
         <script
