@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hokwe-com.vercel.app
+
+# Sitemaps
+Sitemap: https://hokwe-com.vercel.app/sitemap.xml
