@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  keywords: "rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, rent management, tenant solutions, landlord tools",
+  keywords: "Hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools",
   creator: "Hokwe Inc Technologies",
   authors: [{ name: "Hokwe Team", url: "https://hokwe.com" }],
   // Additional Meta Tags
@@ -104,6 +104,9 @@ export default function RootLayout({
             }),
           }}
         ></script>
+
+
+        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -111,20 +114,104 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Hokwe",
-              "url": "https://hokwe.com",
+              "legalName":"Hokwe Inc Technologies",
+              "@id":"https://www.hokwe.com/",
+              "url": "https://www.hokwe.com",
               "logo": "https://www.hokwe.com/logo.png",
+              "founder": {
+                "@type": "Person",
+                "name": "Corine BOCOGA"
+              },
+              "foundingDate": "2020-05-01",
+              "description": "Hokwe is a platform offering services to businesses worldwide.",
               "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+1-800-123-4567",
+                "telephone": "+229-0162-004-867",
                 "contactType": "Customer Service",
               },
               "sameAs": [
+                "https://www.instagram.com/hokwe",
+                "https://www.linkedin.com/company/hokwepaymentsolutions",
+                "https://www.youtube.com/@hokwe4291",
+                "https://www.tiktok.com/@hokwe",
                 "https://web.facebook.com/hokwepaymentsolutions/",
-                "https://x.com/hokwe"
+                "https://x.com/hokwe",
+                "https://www.pinterest.com/hokwepaymentsolutions"
               ]
             }),
           }}
-        ></script>
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Hokwe",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Godomey",
+                "addressLocality": "City",
+                "addressRegion": "State",
+                "postalCode": "12345",
+                "addressCountry": "Country"
+              },
+              "url": "https://www.hokwe.com",
+              "telephone": "+229-0162-004-867",
+            }),
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.hokwe.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About",
+                  "item": "https://www.hokwe.com/about"
+                }
+              ]
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "What is Hokwe?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Hokwe is a platform that provides exceptional services for businesses."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can I sign up for Hokwe?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can sign up on our website by visiting https://www.hokwe.com/signup."
+                  }
+                }
+              ]
+            }),
+          }}
+        />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-R1DS7Z1N3B"></script>
         <script
           dangerouslySetInnerHTML={{

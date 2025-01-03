@@ -22,6 +22,29 @@ export default function Home() {
     }
   };
 
+  const searchStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Hokwe",
+    "url": "https://www.hokwe.com",
+    "logo": "https://www.hokwe.com/logo.png",
+    "founder": {
+      "@type": "Person",
+      "name": "Corine BOCOGA"
+    },
+    "foundingDate": "2020-05-01",
+    "description": "Hokwe is a platform offering services to businesses worldwide.",
+    "sameAs": [
+      "https://www.instagram.com/hokwe",
+      "https://www.linkedin.com/company/hokwepaymentsolutions",
+      "https://www.youtube.com/@hokwe4291",
+      "https://www.tiktok.com/@hokwe",
+      "https://web.facebook.com/hokwepaymentsolutions/",
+      "https://x.com/hokwe",
+      "https://www.pinterest.com/hokwepaymentsolutions"
+    ]
+  };
+
   return (
     <>
       <Head>
@@ -51,6 +74,9 @@ export default function Home() {
           content="Streamline rent payments, manage properties effortlessly, and connect with your rental community."
         />
         <meta name="twitter:image" content="/illustration1.png" />
+        <meta name="keywords" content="Hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools"/>
+        <meta name="author" content="Hokwe Team" />
+        <link rel="canonical" href="https://www.hokwe.com" />
 
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
@@ -63,6 +89,37 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(structuredData),
+          }}
+        />
+
+        {/* Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(searchStructuredData),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.hokwe.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About",
+                  "item": "https://www.hokwe.com/about"
+                }
+              ]
+            }),
           }}
         />
       </Head>
