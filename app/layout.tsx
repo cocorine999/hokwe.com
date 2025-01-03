@@ -108,7 +108,7 @@ export default function RootLayout({
             }),
           }}
         ></script>
-        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3HR2631WF"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R1DS7Z1N3B"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -116,12 +116,12 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-W3HR2631WF', {
+            gtag('config', 'G-R1DS7Z1N3B', {
               page_path: window.location.pathname,
             });
           `,
           }}
-        ></script> */}
+        ></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
