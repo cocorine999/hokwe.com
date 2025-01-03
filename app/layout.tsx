@@ -13,7 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hokwe - Simplifying Rent Payments",
+  title: {
+    default: "Hokwe - Simplify Rent Payments and Management",
+    template: "%s | Hokwe",
+  },
   description: "Hokwe makes rent payments easier and more rewarding. Pay, save, and manage rent with confidence.",
   // Open Graph Tags for Home Page
   openGraph: {
@@ -21,6 +24,7 @@ export const metadata: Metadata = {
     description: "Hokwe makes rent payments easier with automatic billing, loyalty programs, and community access.",
     url: "https://hokwe.com",
     siteName: "Hokwe",
+    locale: 'fr_FR',
     images: [
       {
         url: "/illustration1.png", // URL of the image
@@ -62,6 +66,12 @@ export const metadata: Metadata = {
   // Additional Meta Tags
   category: "Real Estate", // Example of category meta tag
   classification: "Property Management", // Example of classification meta tag
+  icons: {
+    icon: '/favicon.ico',
+  },
+  alternates: {
+    canonical: "https://hokwe.com",
+  }
 };
 
 export default function RootLayout({
@@ -76,6 +86,7 @@ export default function RootLayout({
         <title>Hokwe</title>
         <meta name="description" content="Hokwe simplifies rent payments for tenants and landlords." />
         <link rel="canonical" href="https://hokwe.com" /> */}
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
         {/* Add other SEO-related meta tags here */}
         {/* Schema Markup for structured data */}
