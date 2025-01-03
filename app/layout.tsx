@@ -100,7 +100,48 @@ export default function RootLayout({
               "@type": "WebSite",
               "name": "Hokwe",
               "description": "Simplifying rent payments and property management.",
-              "url": "https://hokwe.com"
+              "url": "https://hokwe.com",
+
+              "publisher": {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Hokwe",
+                "legalName":"Hokwe Inc Technologies",
+                "@id":"https://www.hokwe.com/",
+                "url": "https://www.hokwe.com",
+                "logo": "https://www.hokwe.com/logo.png",
+                "founder": {
+                  "@type": "Person",
+                  "name": "Corine BOCOGA"
+                },
+                "foundingDate": "2020-05-01",
+                "description": "Hokwe is a platform offering services to businesses worldwide.",
+                "contactPoint": [
+                  {
+                    "@type": "ContactPoint",
+                    "telephone": "+229 01 62 00 48 67",
+                    "contactType": "Customer Service",
+                    "areaServed": "BJ",
+                    "availableLanguage": ["French", "English"]
+                  },
+                  {
+                    "@type": "ContactPoint",
+                    "telephone": "+229 01 62 00 48 67",
+                    "contactType": "Sales",
+                    "areaServed": "BJ",
+                    "availableLanguage": ["French", "English"]
+                  }
+                ],
+                "sameAs": [
+                  "https://www.instagram.com/hokwe",
+                  "https://www.linkedin.com/company/hokwepaymentsolutions",
+                  "https://www.youtube.com/@hokwe4291",
+                  "https://www.tiktok.com/@hokwe",
+                  "https://web.facebook.com/hokwepaymentsolutions/",
+                  "https://x.com/hokwe",
+                  "https://www.pinterest.com/hokwepaymentsolutions"
+                ]
+              },
             }),
           }}
         ></script>
@@ -124,11 +165,22 @@ export default function RootLayout({
               },
               "foundingDate": "2020-05-01",
               "description": "Hokwe is a platform offering services to businesses worldwide.",
-              "contactPoint": {
-                "@type": "ContactPoint",
-                "telephone": "+229-0162-004-867",
-                "contactType": "Customer Service",
-              },
+              "contactPoint": [
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+229 01 62 00 48 67",
+                  "contactType": "Customer Service",
+                  "areaServed": "BJ",
+                  "availableLanguage": ["French", "English"]
+                },
+                {
+                  "@type": "ContactPoint",
+                  "telephone": "+229 01 62 00 48 67",
+                  "contactType": "Sales",
+                  "areaServed": "BJ",
+                  "availableLanguage": ["French", "English"]
+                }
+              ],
               "sameAs": [
                 "https://www.instagram.com/hokwe",
                 "https://www.linkedin.com/company/hokwepaymentsolutions",
