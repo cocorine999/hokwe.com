@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hokwe.com"),
   title: {
     default: "Hokwe - Simplify Rent Payments and Management",
     template: "%s | Hokwe",
@@ -54,7 +55,7 @@ export const metadata: Metadata = {
   facebook: {
     appId: '12345678', // Replace with your Facebook App ID
   },
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+  //viewport: "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
 
   robots: {
     index: true,

@@ -1,9 +1,12 @@
-  
-  import Head from 'next/head';
-  export const metadata = {
+// app/home/page.tsx
+import Head from 'next/head';/* 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
     title: "Hokwe | Home",
     description: "Welcome to Hokwe, the leading platform for rent payment solutions.",
-  };
+  }; */
+
 export default function Home() {
   const structuredData = {
     "@context": "https://schema.org",
@@ -68,7 +71,7 @@ export default function Home() {
         <section className="hero">
           <h1>Welcome to Hokwe</h1>
           <p>Simplify rent payments, manage properties, and join a thriving rental community.</p>
-          <button onClick={() => alert('Getting Started!')}>Get Started</button>
+          <button>Get Started</button>
         </section>
 
         <section className="features">
@@ -83,84 +86,13 @@ export default function Home() {
 
         <section className="cta">
           <h2>Join the Hokwe community today!</h2>
-          <button onClick={() => alert('Join Now!')}>Sign Up</button>
+          <button>Sign Up</button>
         </section>
       </main>
 
       <footer>
         <p>&copy; 2025 Hokwe - All Rights Reserved</p>
       </footer>
-
-      <style jsx>{`
-        main {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-        }
-
-        .hero {
-          background: #f4f4f4;
-          padding: 2rem;
-          text-align: center;
-        }
-
-        .hero h1 {
-          font-size: 2.5rem;
-          color: #333;
-        }
-
-        .hero p {
-          font-size: 1.25rem;
-          color: #666;
-        }
-
-        .hero button {
-          background-color: #0070f3;
-          color: white;
-          padding: 0.75rem 1.5rem;
-          font-size: 1rem;
-          border: none;
-          cursor: pointer;
-        }
-
-        .features {
-          padding: 2rem;
-          background: #fafafa;
-          text-align: center;
-        }
-
-        .features h2 {
-          font-size: 2rem;
-          color: #333;
-        }
-
-        .cta {
-          background: #0070f3;
-          color: white;
-          padding: 2rem;
-          text-align: center;
-        }
-
-        .cta h2 {
-          font-size: 2rem;
-        }
-
-        .cta button {
-          background-color: #fff;
-          color: #0070f3;
-          padding: 0.75rem 1.5rem;
-          font-size: 1rem;
-          border: none;
-          cursor: pointer;
-        }
-
-        footer {
-          text-align: center;
-          padding: 1rem;
-          background: #333;
-          color: white;
-        }
-      `}</style>
     </>
   );
 }
