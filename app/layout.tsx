@@ -231,7 +231,7 @@ export default function RootLayout({
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://www.hokwe.com/company/about-us"
+                  "item": "https://www.hokwe.com/company"
                 }
               ]
             }),

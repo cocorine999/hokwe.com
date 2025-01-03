@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     description: "Welcome to Hokwe, the leading platform for rent payment solutions.",
   }; */
 
-export default function Home() {
+export default function AboutUs() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -116,7 +116,7 @@ export default function Home() {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://www.hokwe.com/company"
+                  "item": "https://www.hokwe.com/company/about-us"
                 }
               ]
             }),
@@ -126,25 +126,10 @@ export default function Home() {
 
       <main>
         <section className="hero">
-          <h1>Welcome to Hokwe</h1>
+          <h1>About Hokwe</h1>
           <p>Simplify rent payments, manage properties, and join a thriving rental community.</p>
-          <button>Get Started</button>
         </section>
 
-        <section className="features">
-          <h2>Features</h2>
-          <ul>
-            <li>Easy rent payments</li>
-            <li>Property management tools</li>
-            <li>Community engagement</li>
-            <li>Loyalty rewards for on-time payments</li>
-          </ul>
-        </section>
-
-        <section className="cta">
-          <h2>Join the Hokwe community today!</h2>
-          <button>Sign Up</button>
-        </section>
       </main>
 
       <footer>
