@@ -116,6 +116,10 @@ export default function RootLayout({
                 "telephone": "+1-800-123-4567",
                 "contactType": "Customer Service",
               },
+              "sameAs": [
+                "https://web.facebook.com/hokwepaymentsolutions/",
+                "https://x.com/hokwe"
+              ]
             }),
           }}
         ></script>
