@@ -108,7 +108,7 @@ export default function RootLayout({
             }),
           }}
         ></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3HR2631WF"></script>
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-W3HR2631WF"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -121,7 +121,7 @@ export default function RootLayout({
             });
           `,
           }}
-        ></script>
+        ></script> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
