@@ -74,7 +74,7 @@ export default function Home() {
           content="Streamline rent payments, manage properties effortlessly, and connect with your rental community."
         />
         <meta name="twitter:image" content="/illustration1.png" />
-        <meta name="keywords" content="Hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools"/>
+        <meta name="keywords" content="Hokwe, hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools"/>
         <meta name="author" content="Hokwe Team" />
         <link rel="canonical" href="https://www.hokwe.com" />
 
@@ -116,7 +116,7 @@ export default function Home() {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://www.hokwe.com/about"
+                  "item": "https://www.hokwe.com/company/about-us"
                 }
               ]
             }),

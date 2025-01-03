@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  keywords: "Hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools",
+  keywords: "Hokwe, hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools",
   creator: "Hokwe Inc Technologies",
   authors: [{ name: "Hokwe Team", url: "https://hokwe.com" }],
   // Additional Meta Tags
@@ -231,7 +231,7 @@ export default function RootLayout({
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://www.hokwe.com/about"
+                  "item": "https://www.hokwe.com/company/about-us"
                 }
               ]
             }),
