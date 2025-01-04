@@ -14,12 +14,7 @@ const nextConfig: NextConfig = {
         source: "/home",
         destination: "/",
         permanent: true, // Redirects /home to /
-      },
-      {
-        source: 'https://hokwe.com/:path*', // Match any path on https://hokwe.com/
-        destination: 'https://www.hokwe.com/:path*', // Redirect to https://www.hokwe.com/
-        permanent: true, // This is a permanent redirect (301)
-      },
+      }
     ];
   }
 };
