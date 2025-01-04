@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://hokwe.com/sitemap.xml
+Sitemap: https://www.hokwe.com/sitemap.xml

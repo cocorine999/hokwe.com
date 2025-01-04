@@ -15,8 +15,13 @@ const nextConfig: NextConfig = {
         destination: "/",
         permanent: true, // Redirects /home to /
       },
+      {
+        source: 'https://hokwe.com/:path*', // Match any path on https://hokwe.com/
+        destination: 'https://www.hokwe.com/:path*', // Redirect to https://www.hokwe.com/
+        permanent: true, // This is a permanent redirect (301)
+      },
     ];
-  },
+  }
 };
 
 export default nextConfig;
