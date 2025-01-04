@@ -107,9 +107,9 @@ export default function RootLayout({
                 "@type": "Organization",
                 "name": "Hokwe",
                 "legalName":"Hokwe Inc Technologies",
-                "@id":"https://www.hokwe.com/",
-                "url": "https://www.hokwe.com",
-                "logo": "https://www.hokwe.com/logo.png",
+                "@id":"https://hokwe.com/",
+                "url": "https://hokwe.com",
+                "logo": "https://hokwe.com/logo.png",
                 "founder": {
                   "@type": "Person",
                   "name": "Corine BOCOGA"
@@ -156,9 +156,9 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Hokwe",
               "legalName":"Hokwe Inc Technologies",
-              "@id":"https://www.hokwe.com/",
-              "url": "https://www.hokwe.com",
-              "logo": "https://www.hokwe.com/logo.png",
+              "@id":"https://hokwe.com/",
+              "url": "https://hokwe.com",
+              "logo": "https://hokwe.com/logo.png",
               "founder": {
                 "@type": "Person",
                 "name": "Corine BOCOGA"
@@ -208,7 +208,7 @@ export default function RootLayout({
                 "postalCode": "12345",
                 "addressCountry": "Country"
               },
-              "url": "https://www.hokwe.com",
+              "url": "https://hokwe.com",
               "telephone": "+229-0162-004-867",
             }),
           }}
@@ -225,13 +225,13 @@ export default function RootLayout({
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://www.hokwe.com/"
+                  "item": "https://hokwe.com/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://www.hokwe.com/company"
+                  "item": "https://hokwe.com/company"
                 }
               ]
             }),
@@ -257,7 +257,7 @@ export default function RootLayout({
                   "name": "How can I sign up for Hokwe?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "You can sign up on our website by visiting https://www.hokwe.com/signup."
+                    "text": "You can sign up on our website by visiting https://hokwe.com/signup."
                   }
                 }
               ]

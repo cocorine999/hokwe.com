@@ -26,8 +26,8 @@ export default function AboutUs() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Hokwe",
-    "url": "https://www.hokwe.com",
-    "logo": "https://www.hokwe.com/logo.png",
+    "url": "https://hokwe.com",
+    "logo": "https://hokwe.com/logo.png",
     "founder": {
       "@type": "Person",
       "name": "Corine BOCOGA"
@@ -76,7 +76,6 @@ export default function AboutUs() {
         <meta name="twitter:image" content="/illustration1.png" />
         <meta name="keywords" content="Hokwe, hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools"/>
         <meta name="author" content="Hokwe Team" />
-        <link rel="canonical" href="https://www.hokwe.com" />
 
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
@@ -110,13 +109,13 @@ export default function AboutUs() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://www.hokwe.com/"
+                  "item": "https://hokwe.com/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://www.hokwe.com/company/about-us"
+                  "item": "https://hokwe.com/company/about-us"
                 }
               ]
             }),

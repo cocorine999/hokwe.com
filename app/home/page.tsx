@@ -26,8 +26,8 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Hokwe",
-    "url": "https://www.hokwe.com",
-    "logo": "https://www.hokwe.com/logo.png",
+    "url": "https://hokwe.com",
+    "logo": "https://hokwe.com/logo.png",
     "founder": {
       "@type": "Person",
       "name": "Corine BOCOGA"
@@ -109,13 +109,13 @@ export default function Home() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://www.hokwe.com/"
+                  "item": "https://hokwe.com/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://www.hokwe.com/company"
+                  "item": "https://hokwe.com/company"
                 }
               ]
             }),
