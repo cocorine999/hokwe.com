@@ -206,10 +206,14 @@ export default function RootLayout({
                 "addressLocality": "City",
                 "addressRegion": "State",
                 "postalCode": "12345",
-                "addressCountry": "Country"
+                "addressCountry": {
+                  "type": "",
+                  "name": ""
+                }
               },
               "url": "https://www.hokwe.com",
-              "telephone": "+229-0162-004-867",
+              "telephone": "+229 01 62 00 48 67",
+              "image": "/illustration1.png", // URL of the image
             }),
           }}
         />
