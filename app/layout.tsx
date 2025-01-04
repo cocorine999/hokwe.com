@@ -87,7 +87,7 @@ export default function RootLayout({
       <head>{/* 
         <title>Hokwe</title>
         <meta name="description" content="Hokwe simplifies rent payments for tenants and landlords." /> */}
-        <link rel="canonical" href="https://www.www.hokwe.com" />
+        <link rel="canonical" href="https://www.hokwe.com" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
         {/* Add other SEO-related meta tags here */}
@@ -100,21 +100,27 @@ export default function RootLayout({
               "@type": "WebSite",
               "name": "Hokwe",
               "description": "Simplifying rent payments and property management.",
-              "url": "https://www.www.hokwe.com",
+              "url": "https://www.hokwe.com",
 
               "publisher": {
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "name": "Hokwe",
                 "legalName":"Hokwe Inc Technologies",
-                "@id":"https://www.www.hokwe.com/",
-                "url": "https://www.www.hokwe.com",
-                "logo": "https://www.www.hokwe.com/logo.png",
-                "founder": {
+                "@id":"https://www.hokwe.com/",
+                "url": "https://www.hokwe.com",
+                "logo": "https://www.hokwe.com/logo.png",
+                "founders": [{
+                  "@type": "Person",
+                  "name": "Cretus BOCOGA"
+                },{
                   "@type": "Person",
                   "name": "Corine BOCOGA"
-                },
-                "foundingDate": "2020-05-01",
+                },{
+                  "@type": "Person",
+                  "name": "Joan DETCHENOU"
+                }],
+                "foundingDate": "2020-01-01",
                 "description": "Hokwe is a platform offering services to businesses worldwide.",
                 "contactPoint": [
                   {
@@ -132,6 +138,17 @@ export default function RootLayout({
                     "availableLanguage": ["French", "English"]
                   }
                 ],
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "Togoudo",
+                  "addressLocality": "Godomey",
+                  "addressRegion": "Atlantique",
+                  "postalCode": "94105",
+                  "addressCountry": {
+                    "type": "BJ",
+                    "name": "Benin"
+                  }
+                },
                 "sameAs": [
                   "https://www.instagram.com/hokwe",
                   "https://www.linkedin.com/company/hokwepaymentsolutions",
@@ -207,8 +224,8 @@ export default function RootLayout({
                 "addressRegion": "State",
                 "postalCode": "12345",
                 "addressCountry": {
-                  "type": "",
-                  "name": ""
+                  "type": "BJ",
+                  "name": "Benin"
                 }
               },
               "url": "https://www.hokwe.com",
@@ -230,6 +247,24 @@ export default function RootLayout({
                   "position": 1,
                   "name": "Home",
                   "item": "https://www.hokwe.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About",
+                  "item": "https://www.hokwe.com/services/proprietaires"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About",
+                  "item": "https://www.hokwe.com/company"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "HokwePay - Rent Payment Solutions",
+                  "item": "https://www.hokwe.com/products/hokwepay"
                 },
                 {
                   "@type": "ListItem",
