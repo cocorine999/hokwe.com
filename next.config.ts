@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true, // Enables React strict mode
   //swcMinify: true, // Uses SWC for faster builds and minification
   images: {
-    domains: ["hokwe.com"], // Allow images from specific domains
+    domains: ["www.hokwe.com"], // Allow images from specific domains
   },
   async redirects() {
     return [

@@ -11,13 +11,13 @@ export default function AboutUs() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "url": "https://hokwe.com",
+    "url": "https://www.hokwe.com",
     "logo": "/logo.png",
     "name": "Hokwe",
     "description": "Simplify rent payments and manage rentals with Hokwe.",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://hokwe.com/?q={search_term_string}",
+      "target": "https://www.hokwe.com/?q={search_term_string}",
       "query-input": "required name=search_term_string"
     }
   };
@@ -26,8 +26,8 @@ export default function AboutUs() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Hokwe",
-    "url": "https://hokwe.com",
-    "logo": "https://hokwe.com/logo.png",
+    "url": "https://www.hokwe.com",
+    "logo": "https://www.hokwe.com/logo.png",
     "founder": {
       "@type": "Person",
       "name": "Corine BOCOGA"
@@ -62,7 +62,7 @@ export default function AboutUs() {
           property="og:description"
           content="Streamline rent payments, manage properties effortlessly, and connect with your rental community."
         />
-        <meta property="og:url" content="https://hokwe.com" />
+        <meta property="og:url" content="https://www.hokwe.com" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="/illustration1.png" />
 
@@ -81,7 +81,7 @@ export default function AboutUs() {
         <link rel="icon" href="/favicon.ico" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://hokwe.com" />
+        <link rel="canonical" href="https://www.hokwe.com" />
 
         {/* Structured Data */}
         <script
@@ -109,13 +109,13 @@ export default function AboutUs() {
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://hokwe.com/"
+                  "item": "https://www.hokwe.com/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://hokwe.com/company/about-us"
+                  "item": "https://www.hokwe.com/company/about-us"
                 }
               ]
             }),
