@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><!-- 
     <sitemap>
-        <loc>https://www.hokwe.com/sitemap.xml</loc>
+        <loc>https://www.hokwe.com/sitemap-pages.xml</loc>
         <lastmod>2025-01-01</lastmod>
     </sitemap>
+
+    <sitemap>
+        <loc>https://www.hokwe.com/sitemap-posts.xml</loc>
+        <lastmod>2025-01-01</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.hokwe.com/sitemap-products.xml</loc>
+        <lastmod>2025-01-04</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.hokwe.com/sitemap-legal.xml</loc>
+        <lastmod>2025-01-04</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.hokwe.com/sitemap-support.xml</loc>
+        <lastmod>2025-01-04</lastmod>
+    </sitemap> -->
 </sitemapindex>

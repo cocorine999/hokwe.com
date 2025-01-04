@@ -112,11 +112,73 @@ export default function RootLayout({
                 "logo": "https://www.hokwe.com/logo.png",
                 "founders": [{
                   "@type": "Person",
-                  "name": "Cretus BOCOGA"
-                },{
+                  "name": "Cretus BOCOGA",
+                    "jobTitle": "CEO",
+                    "email": "cretusbocoga@gmail.com",
+                    "worksFor": {
+                      "@type": "Organization",
+                      "name": "Hokwe"
+                    },
+                    "telephone": "+229 01 96 35 02 63",
+                    "sameAs": [
+                      "https://www.linkedin.com/in/cretusbocoga",
+                      "https://twitter.com/cretusbocoga"
+                    ],
+                    "image": "https://example.com/images/cretus.jpg",
+                    "birthDate": "1993-01-21",
+                    "gender": "Male",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "streetAddress": "123 Main St",
+                      "addressLocality": "Godomey",
+                      "addressRegion": "Atlantique",
+                      "postalCode": "94105",
+                      "addressCountry": "Benin"
+                    },
+                    "alumniOf": {
+                      "@type": "EducationalOrganization",
+                      "name": "ENEAM - University of UAC"
+                    },
+                    "affiliation": {
+                      "@type": "Organization",
+                      "name": "JCI"
+                    }
+                },
+                {
                   "@type": "Person",
-                  "name": "Corine BOCOGA"
-                },{
+                  "name": "Corine BOCOGA",
+                    "jobTitle": "VP Product Manager",
+                    "email": "cocorine999@gmail.com",
+                    "worksFor": {
+                      "@type": "Organization",
+                      "name": "Hokwe"
+                    },
+                    "telephone": "+229 01 62 00 48 62",
+                    "sameAs": [
+                      "https://www.linkedin.com/in/corinebocoga",
+                      "https://twitter.com/cretusbocoga"
+                    ],
+                    "image": "https://example.com/images/cretus.jpg",
+                    "birthDate": "1999-10-26",
+                    "gender": "Female",
+                    "address": {
+                      "@type": "PostalAddress",
+                      "streetAddress": "123 Main St",
+                      "addressLocality": "Godomey",
+                      "addressRegion": "Atlantique",
+                      "postalCode": "94105",
+                      "addressCountry": "Benin"
+                    },
+                    "alumniOf": {
+                      "@type": "EducationalOrganization",
+                      "name": "IFRI - University of UAC"
+                    },
+                    "affiliation": {
+                      "@type": "Organization",
+                      "name": "2SF"
+                    }
+                },
+                {
                   "@type": "Person",
                   "name": "Joan DETCHENOU"
                 }],
@@ -176,11 +238,17 @@ export default function RootLayout({
               "@id":"https://www.hokwe.com/",
               "url": "https://www.hokwe.com",
               "logo": "https://www.hokwe.com/logo.png",
-              "founder": {
+              "founders": [{
+                "@type": "Person",
+                "name": "Cretus BOCOGA"
+              },{
                 "@type": "Person",
                 "name": "Corine BOCOGA"
-              },
-              "foundingDate": "2020-05-01",
+              },{
+                "@type": "Person",
+                "name": "Joan DETCHENOU"
+              }],
+              "foundingDate": "2020-01-01",
               "description": "Hokwe is a platform offering services to businesses worldwide.",
               "contactPoint": [
                 {
@@ -198,6 +266,17 @@ export default function RootLayout({
                   "availableLanguage": ["French", "English"]
                 }
               ],
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Togoudo",
+                "addressLocality": "Godomey",
+                "addressRegion": "Atlantique",
+                "postalCode": "94105",
+                "addressCountry": {
+                  "type": "BJ",
+                  "name": "Benin"
+                }
+              },
               "sameAs": [
                 "https://www.instagram.com/hokwe",
                 "https://www.linkedin.com/company/hokwepaymentsolutions",
@@ -251,25 +330,49 @@ export default function RootLayout({
                 {
                   "@type": "ListItem",
                   "position": 2,
-                  "name": "About",
-                  "item": "https://www.hokwe.com/services/proprietaires"
-                },
-                {
-                  "@type": "ListItem",
-                  "position": 2,
-                  "name": "About",
-                  "item": "https://www.hokwe.com/company"
+                  "name": "Proprietaires",
+                  "item": "https://www.hokwe.com/solutions/proprietaires"
                 },
                 {
                   "@type": "ListItem",
                   "position": 3,
-                  "name": "HokwePay - Rent Payment Solutions",
+                  "name": "Locataires",
+                  "item": "https://www.hokwe.com/solutions/locataires"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "name": "Careers",
+                  "item": "https://www.hokwe.com/company"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "name": "Get HokwePay - Rent Payment Solutions",
                   "item": "https://www.hokwe.com/products/hokwepay"
                 },
                 {
                   "@type": "ListItem",
-                  "position": 2,
-                  "name": "About",
+                  "position": 6,
+                  "name": "Why Hokwe???",
+                  "item": "https://www.hokwe.com/company"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 7,
+                  "name": "About Hokwe",
+                  "item": "https://www.hokwe.com/company"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 8,
+                  "name": "Pricing",
+                  "item": "https://www.hokwe.com/company"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 9,
+                  "name": "FAQs",
                   "item": "https://www.hokwe.com/company"
                 }
               ]
