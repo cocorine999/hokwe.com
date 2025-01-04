@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://hokwe.com"),
+  metadataBase: new URL("https://www.hokwe.com"),
   title: {
     default: "Hokwe - Simplify Rent Payments and Management",
     template: "%s | Hokwe",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hokwe - Simplify Rent Payments and Management",
     description: "Streamline rent payments, manage properties effortlessly, and connect with your rental community.",//"Hokwe makes rent payments easier with automatic billing, loyalty programs, and community access.",
-    url: "https://hokwe.com",
+    url: "https://www.hokwe.com",
     siteName: "Hokwe",
     locale: 'fr_FR',
     images: [
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   keywords: "Hokwe, hokwe, business, platform, services, management, rent payment, tenant, landlord, rental management, property, real estate, automated payments, rent payments, Hokwe,  HokwePay, rent collections, properties management, tenant solutions, landlord tools",
   creator: "Hokwe Inc Technologies",
-  authors: [{ name: "Hokwe Team", url: "https://hokwe.com" }],
+  authors: [{ name: "Hokwe Team", url: "https://www.hokwe.com" }],
   // Additional Meta Tags
   category: "Real Estate", // Example of category meta tag
   classification: "Property Management", // Example of classification meta tag
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     apple: '/favicon.ico',
   },
   alternates: {
-    canonical: "https://hokwe.com",
+    canonical: "https://www.hokwe.com",
   }
 };
 
@@ -87,7 +87,7 @@ export default function RootLayout({
       <head>{/* 
         <title>Hokwe</title>
         <meta name="description" content="Hokwe simplifies rent payments for tenants and landlords." /> */}
-        <link rel="canonical" href="https://hokwe.com" />
+        <link rel="canonical" href="https://www.www.hokwe.com" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
         {/* Add other SEO-related meta tags here */}
@@ -100,16 +100,16 @@ export default function RootLayout({
               "@type": "WebSite",
               "name": "Hokwe",
               "description": "Simplifying rent payments and property management.",
-              "url": "https://hokwe.com",
+              "url": "https://www.www.hokwe.com",
 
               "publisher": {
                 "@context": "https://schema.org",
                 "@type": "Organization",
                 "name": "Hokwe",
                 "legalName":"Hokwe Inc Technologies",
-                "@id":"https://hokwe.com/",
-                "url": "https://hokwe.com",
-                "logo": "https://hokwe.com/logo.png",
+                "@id":"https://www.www.hokwe.com/",
+                "url": "https://www.www.hokwe.com",
+                "logo": "https://www.www.hokwe.com/logo.png",
                 "founder": {
                   "@type": "Person",
                   "name": "Corine BOCOGA"
@@ -156,9 +156,9 @@ export default function RootLayout({
               "@type": "Organization",
               "name": "Hokwe",
               "legalName":"Hokwe Inc Technologies",
-              "@id":"https://hokwe.com/",
-              "url": "https://hokwe.com",
-              "logo": "https://hokwe.com/logo.png",
+              "@id":"https://www.hokwe.com/",
+              "url": "https://www.hokwe.com",
+              "logo": "https://www.hokwe.com/logo.png",
               "founder": {
                 "@type": "Person",
                 "name": "Corine BOCOGA"
@@ -208,7 +208,7 @@ export default function RootLayout({
                 "postalCode": "12345",
                 "addressCountry": "Country"
               },
-              "url": "https://hokwe.com",
+              "url": "https://www.hokwe.com",
               "telephone": "+229-0162-004-867",
             }),
           }}
@@ -225,13 +225,13 @@ export default function RootLayout({
                   "@type": "ListItem",
                   "position": 1,
                   "name": "Home",
-                  "item": "https://hokwe.com/"
+                  "item": "https://www.hokwe.com/"
                 },
                 {
                   "@type": "ListItem",
                   "position": 2,
                   "name": "About",
-                  "item": "https://hokwe.com/company"
+                  "item": "https://www.hokwe.com/company"
                 }
               ]
             }),
@@ -257,7 +257,7 @@ export default function RootLayout({
                   "name": "How can I sign up for Hokwe?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "You can sign up on our website by visiting https://hokwe.com/signup."
+                    "text": "You can sign up on our website by visiting https://www.hokwe.com/signup."
                   }
                 }
               ]
