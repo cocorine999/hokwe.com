@@ -81,7 +81,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.hokwe.com" />
+        <link rel="canonical" href="https://hokwe.com" />
 
         {/* Structured Data */}
         <script

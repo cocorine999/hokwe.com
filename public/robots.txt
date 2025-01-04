@@ -2,8 +2,5 @@
 User-agent: *
 Allow: /
 
-# Host
-Host: https://hokwe.com
-
 # Sitemaps
 Sitemap: https://hokwe.com/sitemap.xml

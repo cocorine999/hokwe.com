@@ -87,7 +87,7 @@ export default function RootLayout({
       <head>{/* 
         <title>Hokwe</title>
         <meta name="description" content="Hokwe simplifies rent payments for tenants and landlords." /> */}
-        <link rel="canonical" href="https://www.hokwe.com" />
+        <link rel="canonical" href="https://hokwe.com" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
         {/* Add other SEO-related meta tags here */}
