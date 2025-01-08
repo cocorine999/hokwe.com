@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   //swcMinify: true, // Uses SWC for faster builds and minification
   images: {
     domains: ["www.hokwe.com"], // Allow images from specific domains
-  },
+  }/* ,
   async redirects() {
     return [
       {
@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
         permanent: true, // Redirects /home to /
       }
     ];
-  }
+  } */
 };
 
 export default nextConfig;
