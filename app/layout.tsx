@@ -89,6 +89,8 @@ export default function RootLayout({
         <meta name="description" content="Hokwe simplifies rent payments for tenants and landlords." /> */}
         <link rel="canonical" href="https://www.hokwe.com" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+
 
         {/* Add other SEO-related meta tags here */}
         {/* Schema Markup for structured data */}

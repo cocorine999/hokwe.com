@@ -55,6 +55,7 @@ export default function Home() {
           content="Hokwe helps tenants and landlords streamline rent payments, manage properties, and foster better interactions. Join the community today!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
         {/* Open Graph / Facebook */}
         <meta property="og:title" content="Hokwe - Simplify Rent Payments and Management" />
